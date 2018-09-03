@@ -5,7 +5,7 @@ import negocio.Cliente;
 public class TestaCliente {
 
 	public static void main(String[] args) {
-		
+		//Primeira instância
 		Cliente c1 = new Cliente("joao", "12345678901", "centro", "rio de janeiro", "RJ");
 		c1.exibir();
 		
